@@ -1,4 +1,15 @@
-<!--index.wxml-->
+<map 
+  class="map" 
+  id="map" 
+  latitude="{{location.latitude}}" 
+  longitude="{{location.longitude}}" 
+  scale="{{scale}}" 
+  setting="{{setting}}" 
+  enable-overlooking="{{isOverLooking}}" 
+  enable-3D="{{is3D}}" 
+  markers="{{markers}}">
+</map>
+<!-- index.wxml
 <view class="container">
   <view class="userinfo">
     <block wx:if="{{canIUseOpenData}}">
@@ -23,4 +34,4 @@
   <button type="primary" bindtap="onTap">
     修改motto
   </button>
-</view>
+</view> -->
